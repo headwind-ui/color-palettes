@@ -1,0 +1,142 @@
+{
+    "paletteOne": {
+        "primary": ["cyan"],
+        "neutral": ["blueGrey"],
+        "support": ["indigo", "pink", "red", "yellow"]
+    },
+    "paletteTwo": {
+        "primary": ["blue", "yellowVivid"],
+        "neutral": ["blueGrey"],
+        "support": ["cyan", "red"]
+    },
+    "paletteThree": {
+        "primary": ["purple", "teal"],
+        "neutral": ["blueGrey"],
+        "support": ["lightBlueVivid", "redVivid", "yellowVivid"]
+    },
+    "paletteFour": {
+        "primary": ["teal"],
+        "neutral": ["blueGrey"],
+        "support": ["blue", "purple", "red", "yellow"]
+    },
+    "paletteFive": {
+        "primary": ["blueGrey"],
+        "neutral": ["blueGrey"],
+        "support": ["lightBlueVivid", "cyan", "pinkVivid", "redVivid", "yellowVivid", "teal"]
+    },
+    "paletteSix": {
+        "primary": ["red", "yellow"],
+        "neutral": ["warmGrey"],
+        "support": ["cyan", "limeGreen"]
+    },
+    "paletteSeven": {
+        "primary": ["cyan"],
+        "neutral": ["warmGrey"],
+        "support": ["blue", "red", "yellow", "teal"]
+    },
+    "paletteEight": {
+        "primary": ["blueVivid"],
+        "neutral": ["coolGrey"],
+        "support": ["cyan", "orangeVivid", "redVivid", "yellowVivid"]
+    },
+    "paletteNine": {
+        "primary": ["lightBlueVivid"],
+        "neutral": ["coolGrey"],
+        "support": ["pinkVivid", "redVivid", "yellowVivid", "teal"]
+    },
+    "paletteTen": {
+        "primary": ["indigo"],
+        "neutral": ["coolGrey"],
+        "support": ["lightBlueVivid", "redVivid", "yellowVivid", "teal"]
+    },
+    "paletteEleven": {
+        "primary": ["pinkVivid"],
+        "neutral": ["coolGrey"],
+        "support": ["purpleVivid", "cyanVivid", "redVivid", "yellowVivid"]
+    },
+    "paletteTwelve": {
+        "primary": ["green"],
+        "neutral": ["grey"],
+        "support": ["purple", "red", "yellow"]
+    },
+    "paletteThirteen": {
+        "primary": ["yellowVivid", "lightBlueVivid"],
+        "neutral": ["grey"],
+        "support": ["redVivid", "teal"]
+    },
+    "paletteFourteen": {
+        "primary": ["orange", "limeGreen"],
+        "neutral": ["grey"],
+        "support": ["lightBlue", "red", "yellow"]
+    },
+    "paletteFifteen": {
+        "primary": ["blue"],
+        "neutral": ["blueGrey"],
+        "support": ["tealVivid", "yellow", "red"]
+    },
+    "paletteSixteen": {
+        "primary": ["purple", "redVivid"],
+        "neutral": ["blueGrey"],
+        "support": ["tealVivid", "yellowVivid"]
+    },
+    "paletteSeventeen": {
+        "primary": ["magenta", "orangeVivid"],
+        "neutral": ["blueGrey"],
+        "support": ["yellowVivid", "redVivid", "greenVivid"]
+    },
+    "paletteEighteen": {
+        "primary": ["purple"],
+        "neutral": ["warmGrey"],
+        "support": ["cyan", "redVivid", "yellow", "greenVivid"]
+    },
+    "paletteNineteen": {
+        "primary": ["indigo", "orangeVivid"],
+        "neutral": ["coolGrey"],
+        "support": ["magentaVivid", "redVivid", "yellowVivid", "greenVivid"]
+    },
+    "paletteTwenty": {
+        "primary": ["lightBlue", "green"],
+        "neutral": ["coolGrey"],
+        "support": ["purple", "red", "yellow"]
+    },
+    "paletteTwentyOne": {
+        "primary": ["orangeVivid"],
+        "neutral": ["coolGrey"],
+        "support": ["indigo", "red", "yellow", "green"]
+    },
+    "paletteTwentyTwo": {
+        "primary": ["cyan", "limeGreen"],
+        "neutral": ["coolGrey"],
+        "support": ["blue", "purple", "red", "yellow"]
+    },
+    "paletteTwentyThree": {
+        "primary": ["indigo", "cyanVivid"],
+        "neutral": ["coolGrey"],
+        "support": ["pinkVivid", "redVivid", "yellowVivid", "greenVivid"]
+    },
+    "paletteTwentyFour": {
+        "primary": ["tealVivid"],
+        "neutral": ["grey"],
+        "support": ["yellowVivid", "redVivid"]
+    },
+    "paletteTwentyFive": {
+        "primary": ["yellow"],
+        "neutral": ["grey"],
+        "support": ["blue", "orange", "red", "green"]
+    },
+    "paletteTwentySix": {
+        "primary": ["cyan", "limeGreen"],
+        "neutral": ["grey"],
+        "support": ["blue", "orange", "red", "yellow"]
+    },
+    "paletteTwentySeven": {
+        "primary": ["blue", "orange"],
+        "neutral": ["grey"],
+        "support": ["cyan", "limeGreen", "red", "yellow"]
+    },
+    "paletteTwentyEight": {
+        "primary": ["pinkVivid", "orangeVivid"],
+        "neutral": ["coolGrey"],
+        "support": ["blue", "purple", "red", "yellow"]
+    }
+}

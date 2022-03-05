@@ -1,0 +1,24 @@
+{
+    "name": "color-palettes-tailwind",
+    "version": "0.0.1",
+    "description": "color palettes for tailwind",
+    "main": "lib/",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "convert": "node scripts/color-converter.js",
+        "generate:palette": "node scripts/palette-generator.js",
+        "prettier": "pnpm dlx prettier --write src/**/*.ts"
+    },
+    "keywords": [
+        "tailwind",
+        "colors",
+        "palettes"
+    ],
+    "author": "UrielCuriel <urielcuriel@outlook.com>",
+    "license": "ISC",
+    "dependencies": {
+        "prettier": "^2.5.1",
+        "standard-version": "^9.3.2",
+        "typescript": "^4.6.2"
+    }
+}
