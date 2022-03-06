@@ -1,13 +1,18 @@
 {
-    "name": "color-palettes-tailwind",
-    "version": "0.0.1",
+    "name": "color-palettes-tailwindcss",
+    "version": "0.0.2",
     "description": "color palettes for tailwind",
     "main": "lib/",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
         "convert": "node scripts/color-converter.js",
         "generate:palette": "node scripts/palette-generator.js",
-        "prettier": "pnpm dlx prettier --write src/**/*.ts"
+        "prettier": "pnpm dlx prettier --write src/**/*.ts",
+        "tsc": "tsc -p tsconfig-build.json && tsc -p tsconfig-cjs.json",
+        "package": "node scripts/package.js",
+        "release:prepare": " pnpm run generate:palette && pnpm run prettier && pnpm run tsc && pnpm run package",
+        "release:version": "standard-version",
+        "release:publish": "pnpm publish --access public --tag latest"
     },
     "keywords": [
         "tailwind",
@@ -15,8 +20,12 @@
         "palettes"
     ],
     "author": "UrielCuriel <urielcuriel@outlook.com>",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/UrielCuriel/color-palettes-taiwindcss"
+    },
     "license": "ISC",
-    "dependencies": {
+    "devDependencies": {
         "prettier": "^2.5.1",
         "standard-version": "^9.3.2",
         "typescript": "^4.6.2"
