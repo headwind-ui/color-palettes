@@ -42,13 +42,13 @@ export const paletteOneHex = {
 }
 
 export const paletteTwo = {
-    primary: {...blue.hsl, yellowVivid: yellowVivid.hsl},
+    primary: {...blue.hsl, 'yellow-vivid': yellowVivid.hsl},
     neutral: {...blueGrey.hsl},
     support: {...cyan.hsl, red: red.hsl}
 }
 
 export const paletteTwoHex = {
-    primary: {...blue.hex, yellowVivid: yellowVivid.hex},
+    primary: {...blue.hex, 'yellow-vivid': yellowVivid.hex},
     neutral: {...blueGrey.hex},
     support: {...cyan.hex, red: red.hex}
 }
@@ -56,13 +56,13 @@ export const paletteTwoHex = {
 export const paletteThree = {
     primary: {...purple.hsl, teal: teal.hsl},
     neutral: {...blueGrey.hsl},
-    support: {...lightBlueVivid.hsl, redVivid: redVivid.hsl, yellowVivid: yellowVivid.hsl}
+    support: {...lightBlueVivid.hsl, 'red-vivid': redVivid.hsl, 'yellow-vivid': yellowVivid.hsl}
 }
 
 export const paletteThreeHex = {
     primary: {...purple.hex, teal: teal.hex},
     neutral: {...blueGrey.hex},
-    support: {...lightBlueVivid.hex, redVivid: redVivid.hex, yellowVivid: yellowVivid.hex}
+    support: {...lightBlueVivid.hex, 'red-vivid': redVivid.hex, 'yellow-vivid': yellowVivid.hex}
 }
 
 export const paletteFour = {
@@ -80,25 +80,25 @@ export const paletteFourHex = {
 export const paletteFive = {
     primary: {...blueGrey.hsl},
     neutral: {...blueGrey.hsl},
-    support: {...lightBlueVivid.hsl, cyan: cyan.hsl, pinkVivid: pinkVivid.hsl, redVivid: redVivid.hsl, yellowVivid: yellowVivid.hsl, teal: teal.hsl}
+    support: {...lightBlueVivid.hsl, cyan: cyan.hsl, 'pink-vivid': pinkVivid.hsl, 'red-vivid': redVivid.hsl, 'yellow-vivid': yellowVivid.hsl, teal: teal.hsl}
 }
 
 export const paletteFiveHex = {
     primary: {...blueGrey.hex},
     neutral: {...blueGrey.hex},
-    support: {...lightBlueVivid.hex, cyan: cyan.hex, pinkVivid: pinkVivid.hex, redVivid: redVivid.hex, yellowVivid: yellowVivid.hex, teal: teal.hex}
+    support: {...lightBlueVivid.hex, cyan: cyan.hex, 'pink-vivid': pinkVivid.hex, 'red-vivid': redVivid.hex, 'yellow-vivid': yellowVivid.hex, teal: teal.hex}
 }
 
 export const paletteSix = {
     primary: {...red.hsl, yellow: yellow.hsl},
     neutral: {...warmGrey.hsl},
-    support: {...cyan.hsl, limeGreen: limeGreen.hsl}
+    support: {...cyan.hsl, 'lime-green': limeGreen.hsl}
 }
 
 export const paletteSixHex = {
     primary: {...red.hex, yellow: yellow.hex},
     neutral: {...warmGrey.hex},
-    support: {...cyan.hex, limeGreen: limeGreen.hex}
+    support: {...cyan.hex, 'lime-green': limeGreen.hex}
 }
 
 export const paletteSeven = {
@@ -116,49 +116,49 @@ export const paletteSevenHex = {
 export const paletteEight = {
     primary: {...blueVivid.hsl},
     neutral: {...coolGrey.hsl},
-    support: {...cyan.hsl, orangeVivid: orangeVivid.hsl, redVivid: redVivid.hsl, yellowVivid: yellowVivid.hsl}
+    support: {...cyan.hsl, 'orange-vivid': orangeVivid.hsl, 'red-vivid': redVivid.hsl, 'yellow-vivid': yellowVivid.hsl}
 }
 
 export const paletteEightHex = {
     primary: {...blueVivid.hex},
     neutral: {...coolGrey.hex},
-    support: {...cyan.hex, orangeVivid: orangeVivid.hex, redVivid: redVivid.hex, yellowVivid: yellowVivid.hex}
+    support: {...cyan.hex, 'orange-vivid': orangeVivid.hex, 'red-vivid': redVivid.hex, 'yellow-vivid': yellowVivid.hex}
 }
 
 export const paletteNine = {
     primary: {...lightBlueVivid.hsl},
     neutral: {...coolGrey.hsl},
-    support: {...pinkVivid.hsl, redVivid: redVivid.hsl, yellowVivid: yellowVivid.hsl, teal: teal.hsl}
+    support: {...pinkVivid.hsl, 'red-vivid': redVivid.hsl, 'yellow-vivid': yellowVivid.hsl, teal: teal.hsl}
 }
 
 export const paletteNineHex = {
     primary: {...lightBlueVivid.hex},
     neutral: {...coolGrey.hex},
-    support: {...pinkVivid.hex, redVivid: redVivid.hex, yellowVivid: yellowVivid.hex, teal: teal.hex}
+    support: {...pinkVivid.hex, 'red-vivid': redVivid.hex, 'yellow-vivid': yellowVivid.hex, teal: teal.hex}
 }
 
 export const paletteTen = {
     primary: {...indigo.hsl},
     neutral: {...coolGrey.hsl},
-    support: {...lightBlueVivid.hsl, redVivid: redVivid.hsl, yellowVivid: yellowVivid.hsl, teal: teal.hsl}
+    support: {...lightBlueVivid.hsl, 'red-vivid': redVivid.hsl, 'yellow-vivid': yellowVivid.hsl, teal: teal.hsl}
 }
 
 export const paletteTenHex = {
     primary: {...indigo.hex},
     neutral: {...coolGrey.hex},
-    support: {...lightBlueVivid.hex, redVivid: redVivid.hex, yellowVivid: yellowVivid.hex, teal: teal.hex}
+    support: {...lightBlueVivid.hex, 'red-vivid': redVivid.hex, 'yellow-vivid': yellowVivid.hex, teal: teal.hex}
 }
 
 export const paletteEleven = {
     primary: {...pinkVivid.hsl},
     neutral: {...coolGrey.hsl},
-    support: {...purpleVivid.hsl, cyanVivid: cyanVivid.hsl, redVivid: redVivid.hsl, yellowVivid: yellowVivid.hsl}
+    support: {...purpleVivid.hsl, 'cyan-vivid': cyanVivid.hsl, 'red-vivid': redVivid.hsl, 'yellow-vivid': yellowVivid.hsl}
 }
 
 export const paletteElevenHex = {
     primary: {...pinkVivid.hex},
     neutral: {...coolGrey.hex},
-    support: {...purpleVivid.hex, cyanVivid: cyanVivid.hex, redVivid: redVivid.hex, yellowVivid: yellowVivid.hex}
+    support: {...purpleVivid.hex, 'cyan-vivid': cyanVivid.hex, 'red-vivid': redVivid.hex, 'yellow-vivid': yellowVivid.hex}
 }
 
 export const paletteTwelve = {
@@ -174,25 +174,25 @@ export const paletteTwelveHex = {
 }
 
 export const paletteThirteen = {
-    primary: {...yellowVivid.hsl, lightBlueVivid: lightBlueVivid.hsl},
+    primary: {...yellowVivid.hsl, 'light-blue-vivid': lightBlueVivid.hsl},
     neutral: {...grey.hsl},
     support: {...redVivid.hsl, teal: teal.hsl}
 }
 
 export const paletteThirteenHex = {
-    primary: {...yellowVivid.hex, lightBlueVivid: lightBlueVivid.hex},
+    primary: {...yellowVivid.hex, 'light-blue-vivid': lightBlueVivid.hex},
     neutral: {...grey.hex},
     support: {...redVivid.hex, teal: teal.hex}
 }
 
 export const paletteFourteen = {
-    primary: {...orange.hsl, limeGreen: limeGreen.hsl},
+    primary: {...orange.hsl, 'lime-green': limeGreen.hsl},
     neutral: {...grey.hsl},
     support: {...lightBlue.hsl, red: red.hsl, yellow: yellow.hsl}
 }
 
 export const paletteFourteenHex = {
-    primary: {...orange.hex, limeGreen: limeGreen.hex},
+    primary: {...orange.hex, 'lime-green': limeGreen.hex},
     neutral: {...grey.hex},
     support: {...lightBlue.hex, red: red.hex, yellow: yellow.hex}
 }
@@ -210,51 +210,51 @@ export const paletteFifteenHex = {
 }
 
 export const paletteSixteen = {
-    primary: {...purple.hsl, redVivid: redVivid.hsl},
+    primary: {...purple.hsl, 'red-vivid': redVivid.hsl},
     neutral: {...blueGrey.hsl},
-    support: {...tealVivid.hsl, yellowVivid: yellowVivid.hsl}
+    support: {...tealVivid.hsl, 'yellow-vivid': yellowVivid.hsl}
 }
 
 export const paletteSixteenHex = {
-    primary: {...purple.hex, redVivid: redVivid.hex},
+    primary: {...purple.hex, 'red-vivid': redVivid.hex},
     neutral: {...blueGrey.hex},
-    support: {...tealVivid.hex, yellowVivid: yellowVivid.hex}
+    support: {...tealVivid.hex, 'yellow-vivid': yellowVivid.hex}
 }
 
 export const paletteSeventeen = {
-    primary: {...magenta.hsl, orangeVivid: orangeVivid.hsl},
+    primary: {...magenta.hsl, 'orange-vivid': orangeVivid.hsl},
     neutral: {...blueGrey.hsl},
-    support: {...yellowVivid.hsl, redVivid: redVivid.hsl, greenVivid: greenVivid.hsl}
+    support: {...yellowVivid.hsl, 'red-vivid': redVivid.hsl, 'green-vivid': greenVivid.hsl}
 }
 
 export const paletteSeventeenHex = {
-    primary: {...magenta.hex, orangeVivid: orangeVivid.hex},
+    primary: {...magenta.hex, 'orange-vivid': orangeVivid.hex},
     neutral: {...blueGrey.hex},
-    support: {...yellowVivid.hex, redVivid: redVivid.hex, greenVivid: greenVivid.hex}
+    support: {...yellowVivid.hex, 'red-vivid': redVivid.hex, 'green-vivid': greenVivid.hex}
 }
 
 export const paletteEighteen = {
     primary: {...purple.hsl},
     neutral: {...warmGrey.hsl},
-    support: {...cyan.hsl, redVivid: redVivid.hsl, yellow: yellow.hsl, greenVivid: greenVivid.hsl}
+    support: {...cyan.hsl, 'red-vivid': redVivid.hsl, yellow: yellow.hsl, 'green-vivid': greenVivid.hsl}
 }
 
 export const paletteEighteenHex = {
     primary: {...purple.hex},
     neutral: {...warmGrey.hex},
-    support: {...cyan.hex, redVivid: redVivid.hex, yellow: yellow.hex, greenVivid: greenVivid.hex}
+    support: {...cyan.hex, 'red-vivid': redVivid.hex, yellow: yellow.hex, 'green-vivid': greenVivid.hex}
 }
 
 export const paletteNineteen = {
-    primary: {...indigo.hsl, orangeVivid: orangeVivid.hsl},
+    primary: {...indigo.hsl, 'orange-vivid': orangeVivid.hsl},
     neutral: {...coolGrey.hsl},
-    support: {...magentaVivid.hsl, redVivid: redVivid.hsl, yellowVivid: yellowVivid.hsl, greenVivid: greenVivid.hsl}
+    support: {...magentaVivid.hsl, 'red-vivid': redVivid.hsl, 'yellow-vivid': yellowVivid.hsl, 'green-vivid': greenVivid.hsl}
 }
 
 export const paletteNineteenHex = {
-    primary: {...indigo.hex, orangeVivid: orangeVivid.hex},
+    primary: {...indigo.hex, 'orange-vivid': orangeVivid.hex},
     neutral: {...coolGrey.hex},
-    support: {...magentaVivid.hex, redVivid: redVivid.hex, yellowVivid: yellowVivid.hex, greenVivid: greenVivid.hex}
+    support: {...magentaVivid.hex, 'red-vivid': redVivid.hex, 'yellow-vivid': yellowVivid.hex, 'green-vivid': greenVivid.hex}
 }
 
 export const paletteTwenty = {
@@ -282,39 +282,39 @@ export const paletteTwentyOneHex = {
 }
 
 export const paletteTwentyTwo = {
-    primary: {...cyan.hsl, limeGreen: limeGreen.hsl},
+    primary: {...cyan.hsl, 'lime-green': limeGreen.hsl},
     neutral: {...coolGrey.hsl},
     support: {...blue.hsl, purple: purple.hsl, red: red.hsl, yellow: yellow.hsl}
 }
 
 export const paletteTwentyTwoHex = {
-    primary: {...cyan.hex, limeGreen: limeGreen.hex},
+    primary: {...cyan.hex, 'lime-green': limeGreen.hex},
     neutral: {...coolGrey.hex},
     support: {...blue.hex, purple: purple.hex, red: red.hex, yellow: yellow.hex}
 }
 
 export const paletteTwentyThree = {
-    primary: {...indigo.hsl, cyanVivid: cyanVivid.hsl},
+    primary: {...indigo.hsl, 'cyan-vivid': cyanVivid.hsl},
     neutral: {...coolGrey.hsl},
-    support: {...pinkVivid.hsl, redVivid: redVivid.hsl, yellowVivid: yellowVivid.hsl, greenVivid: greenVivid.hsl}
+    support: {...pinkVivid.hsl, 'red-vivid': redVivid.hsl, 'yellow-vivid': yellowVivid.hsl, 'green-vivid': greenVivid.hsl}
 }
 
 export const paletteTwentyThreeHex = {
-    primary: {...indigo.hex, cyanVivid: cyanVivid.hex},
+    primary: {...indigo.hex, 'cyan-vivid': cyanVivid.hex},
     neutral: {...coolGrey.hex},
-    support: {...pinkVivid.hex, redVivid: redVivid.hex, yellowVivid: yellowVivid.hex, greenVivid: greenVivid.hex}
+    support: {...pinkVivid.hex, 'red-vivid': redVivid.hex, 'yellow-vivid': yellowVivid.hex, 'green-vivid': greenVivid.hex}
 }
 
 export const paletteTwentyFour = {
     primary: {...tealVivid.hsl},
     neutral: {...grey.hsl},
-    support: {...yellowVivid.hsl, redVivid: redVivid.hsl}
+    support: {...yellowVivid.hsl, 'red-vivid': redVivid.hsl}
 }
 
 export const paletteTwentyFourHex = {
     primary: {...tealVivid.hex},
     neutral: {...grey.hex},
-    support: {...yellowVivid.hex, redVivid: redVivid.hex}
+    support: {...yellowVivid.hex, 'red-vivid': redVivid.hex}
 }
 
 export const paletteTwentyFive = {
@@ -330,13 +330,13 @@ export const paletteTwentyFiveHex = {
 }
 
 export const paletteTwentySix = {
-    primary: {...cyan.hsl, limeGreen: limeGreen.hsl},
+    primary: {...cyan.hsl, 'lime-green': limeGreen.hsl},
     neutral: {...grey.hsl},
     support: {...blue.hsl, orange: orange.hsl, red: red.hsl, yellow: yellow.hsl}
 }
 
 export const paletteTwentySixHex = {
-    primary: {...cyan.hex, limeGreen: limeGreen.hex},
+    primary: {...cyan.hex, 'lime-green': limeGreen.hex},
     neutral: {...grey.hex},
     support: {...blue.hex, orange: orange.hex, red: red.hex, yellow: yellow.hex}
 }
@@ -344,23 +344,23 @@ export const paletteTwentySixHex = {
 export const paletteTwentySeven = {
     primary: {...blue.hsl, orange: orange.hsl},
     neutral: {...grey.hsl},
-    support: {...cyan.hsl, limeGreen: limeGreen.hsl, red: red.hsl, yellow: yellow.hsl}
+    support: {...cyan.hsl, 'lime-green': limeGreen.hsl, red: red.hsl, yellow: yellow.hsl}
 }
 
 export const paletteTwentySevenHex = {
     primary: {...blue.hex, orange: orange.hex},
     neutral: {...grey.hex},
-    support: {...cyan.hex, limeGreen: limeGreen.hex, red: red.hex, yellow: yellow.hex}
+    support: {...cyan.hex, 'lime-green': limeGreen.hex, red: red.hex, yellow: yellow.hex}
 }
 
 export const paletteTwentyEight = {
-    primary: {...pinkVivid.hsl, orangeVivid: orangeVivid.hsl},
+    primary: {...pinkVivid.hsl, 'orange-vivid': orangeVivid.hsl},
     neutral: {...coolGrey.hsl},
     support: {...blue.hsl, purple: purple.hsl, red: red.hsl, yellow: yellow.hsl}
 }
 
 export const paletteTwentyEightHex = {
-    primary: {...pinkVivid.hex, orangeVivid: orangeVivid.hex},
+    primary: {...pinkVivid.hex, 'orange-vivid': orangeVivid.hex},
     neutral: {...coolGrey.hex},
     support: {...blue.hex, purple: purple.hex, red: red.hex, yellow: yellow.hex}
 }

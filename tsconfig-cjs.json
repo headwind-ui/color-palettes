@@ -1,7 +1,12 @@
 {
-	"extends": "./tsconfig.json",
-	"compilerOptions": {
-		"module": "es2015",
-		"outDir": "./lib/cjs"
-	}
+    "extends": "./tsconfig.json",
+    "compilerOptions": {
+        "target": "es2019",
+        "lib": ["es2019"],
+        "module": "commonjs",
+        "esModuleInterop": true,
+        "strict": true,
+        "sourceMap": true,
+        "outDir": "./lib/cjs"
+    }
 }

@@ -1,14 +1,15 @@
 {
-	"compilerOptions": {
-		"target": "es2018",
-		"module": "CommonJS",
-		"moduleResolution": "Node",
-		"lib": ["es2018", "esnext.asynciterable"],
-		"experimentalDecorators": true,
-		"emitDecoratorMetadata": true,
-		"esModuleInterop": true,
-		"forceConsistentCasingInFileNames": true,
-		"outDir": "./lib"
-	},
-	"include": ["./src"],
+    "compilerOptions": {
+        "target": "es2018",
+        "module": "ES2020",
+        "moduleResolution": "Node",
+        "lib": ["es2018", "esnext.asynciterable"],
+        "experimentalDecorators": true,
+        "emitDecoratorMetadata": true,
+        "esModuleInterop": true,
+        "forceConsistentCasingInFileNames": true,
+        "outDir": "./lib"
+    },
+    "include": ["./src"],
+    "exclude": ["./node_modules"]
 }

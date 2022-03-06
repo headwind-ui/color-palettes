@@ -1,6 +1,6 @@
 {
     "name": "color-palettes-tailwindcss",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "description": "color palettes for tailwind",
     "main": "lib/",
     "scripts": {
@@ -12,7 +12,7 @@
         "package": "node scripts/package.js",
         "release:prepare": " pnpm run generate:palette && pnpm run prettier && pnpm run tsc && pnpm run package",
         "release:version": "standard-version",
-        "release:publish": "pnpm publish --access public --tag latest"
+        "release:publish": "pnpm publish lib --access public --tag latest"
     },
     "keywords": [
         "tailwind",

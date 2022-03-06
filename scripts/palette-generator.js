@@ -32,7 +32,7 @@ function generatePalette(paletteDef, colorType) {
         palette += `${key}:{...${defaultValue}.${colorType},\n`
         if (value.length >= 1) {
             value.forEach(color => {
-                palette += `${color}:${color}.${colorType},\n`
+                palette += `'${color.replace(/([A-Z])/g, match => '-' + match[0].toLowerCase())}':${color}.${colorType},\n`
             })
         }
         palette += '},\n'
