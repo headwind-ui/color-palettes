@@ -1,6 +1,6 @@
 {
-    "name": "color-palettes-tailwindcss",
-    "version": "0.0.3",
+    "name": "@headwind-ui/color-palettes",
+    "version": "1.0.3",
     "description": "color palettes for tailwind",
     "main": "lib/",
     "scripts": {
